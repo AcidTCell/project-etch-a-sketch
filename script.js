@@ -1,8 +1,8 @@
 let container = document.querySelector('#container');
 let newDiv = document.createElement('div');
 
-let column = 4;
-let row = 4;
+let column = 32;
+let row = 32;
 
 
 
@@ -13,13 +13,13 @@ for (let i = 1; i<=row; i++){
     for (let j = 1; j<=column; j++){
         let box = document.createElement('div');
         box.classList.add('box');
-        box.textContent= '<><>';
+        
         row.appendChild(box);
         box.addEventListener('mouseover', mouseover, false);
         box.addEventListener('mouseout', mouseout, false);
         function mouseover()
         {   
-        box.setAttribute("style", "background-color:blue;");
+        box.setAttribute("style", "background-color:black;");
         }
 
         function mouseout()
