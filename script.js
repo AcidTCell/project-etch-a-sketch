@@ -15,16 +15,25 @@ for (let i = 1; i<=row; i++){
         box.classList.add('box');
         
         row.appendChild(box);
-        box.addEventListener('mouseover', mouseover, false);
-        box.addEventListener('mouseout', mouseout, false);
-        function mouseover()
-        {   
-        box.setAttribute("style", "background-color:black;");
-        }
+        box.addEventListener('mousedown', function() {
+            draw(box);
+        });
 
-        function mouseout()
-        {  
-        box.setAttribute("style", "background-color:white;");
+        // Add mouseover event listener to continue drawing while dragging
+        box.addEventListener('mouseover', function() {
+            if (isDrawing) {
+                draw(box);
+            }
+        });
+
+        // Add mouseup event listener to stop drawing
+        box.addEventListener('mouseup', function() {
+            isDrawing = false;
+        });
+
+        function draw(element) {
+            element.style.backgroundColor = 'black';
+            isDrawing = true;
         }
 
     }
