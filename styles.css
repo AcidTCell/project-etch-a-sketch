@@ -1,13 +1,18 @@
 *{
     margin: 0;
-    padding: 0;
     border: solid 1px black;
 }
 
 html{
     margin: 0;
-    padding: 0;
+    color-scheme: light dark;
+    
 
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 70px;
 }
 
 #container{
@@ -35,3 +40,14 @@ html{
     align-items: center;
     
 }
+
+
+// --text: #071617;
+--background: #f0f9fa;
+--primary: #40b9c2;
+--secondary: #de969c;
+--accent: #cfc367;
+
+// --font-family: 'Nunito', sans-serif;
+
+
