@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: solid 1px black;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+
+}
+
+#container{
+    display: flex;
+    width: 740px;
+    height: 740px;
+    border: solid 10px black;
+    justify-content: space-evenly;
+    align-content: center;
+    
+}
+
+.box{
+    flex:1;
+    width: 100%;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-content: center;
+    height: 100%;
+    align-items: center;
+    
+}
