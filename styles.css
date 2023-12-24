@@ -15,6 +15,11 @@ h1{
     font-size: 70px;
 }
 
+#gridButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #container{
     display: flex;
     width: 740px;
