@@ -1,38 +1,49 @@
 *{
     margin: 0;
-    border: solid 1px black;
+    
 }
 
 html{
     margin: 0;
     color-scheme: light dark;
-    
-
+    background-color: #f0f9fa;
+    border-color: black;
 }
 
 h1{
     font-family: 'Nunito', sans-serif;
-    font-size: 70px;
+    font-size: 10vh;
+    background-color: #40b9c2;
+    padding-left: 2vh;
 }
 
 #gridButton{
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 3vh;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2vh;
+    background-color: ;
+
 }
 
 #container{
     display: flex;
     width: 740px;
     height: 740px;
-    border: solid 10px black;
+    border: solid 3px black;
     justify-content: space-evenly;
     align-content: center;
+    background-color: white;
+    margin-left: 3vh;
+    margin-bottom: 3vh;
     
 }
 
 .box{
     flex:1;
     width: 100%;
+    
     
 }
 

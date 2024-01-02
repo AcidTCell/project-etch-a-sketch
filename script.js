@@ -21,7 +21,6 @@ function createGrid(column, row){
         for (let j = 1; j<=column; j++){
             let box = document.createElement('div');
             box.classList.add('box');
-            
             row.appendChild(box);
             box.addEventListener('mousedown', function() {
                 draw(box);
