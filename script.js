@@ -1,9 +1,12 @@
 let container = document.querySelector('#container');
 let newDiv = document.createElement('div');
 let gridButton = document.querySelector('#gridButton');
+let clearButton = document.querySelector('#clearButton')
 
 
 gridButton.addEventListener('click', getGridSize);
+clearButton.addEventListener('click', clearGrid);
+
 
 function getGridSize(){
     clearGrid();
@@ -40,7 +43,6 @@ function createGrid(column, row){
                 element.style.backgroundColor = 'black';
                 isDrawing = true;
             }
-
         }
     }
 }

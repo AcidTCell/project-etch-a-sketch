@@ -12,7 +12,7 @@ html{
 
 h1{
     font-family: 'Nunito', sans-serif;
-    font-size: 10vh;
+    font-size: 9vh;
     background-color: #40b9c2;
     padding-left: 2vh;
 }
@@ -24,7 +24,20 @@ h1{
     font-family: 'Nunito', sans-serif;
     font-size: 2vh;
     background-color: ;
+    padding-left: 2vh;
+    padding-right: 2vh;
 
+}
+
+#clearButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0vh;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    background-color: ;
 }
 
 #container{
