@@ -27,14 +27,12 @@ function createGrid(column, row){
                 draw(box);
             });
 
-            // Add mouseover event listener to continue drawing while dragging
             box.addEventListener('mouseover', function() {
                 if (isDrawing) {
                     draw(box);
                 }
             });
 
-            // Add mouseup event listener to stop drawing
             box.addEventListener('mouseup', function() {
                 isDrawing = false;
             });
