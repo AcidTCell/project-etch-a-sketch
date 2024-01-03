@@ -18,11 +18,11 @@ function getGridSize(){
         getGridSize();
     }
     else{
-        createGrid(column, row);
+        createBlackGrid(column, row);
     }
 }
 
-function createGrid(column, row){
+function createBlackGrid(column, row){
     for (let i = 1; i<=row; i++){
         let row = document.createElement('div');
         row.classList.add('row');
