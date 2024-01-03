@@ -13,7 +13,13 @@ function getGridSize(){
     let gridSize = prompt('What dimensions are you seeking? ');
     let column = gridSize;
     let row = gridSize;
-    createGrid(column, row);
+    if (gridSize > 100){
+        alert('Value too high, please try again!');
+        getGridSize();
+    }
+    else{
+        createGrid(column, row);
+    }
 }
 
 function createGrid(column, row){
