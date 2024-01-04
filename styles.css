@@ -68,15 +68,12 @@ h1{
     align-content: center;
     background-color: white;
     margin-left: 3vh;
-    margin-bottom: 3vh;
-    
+    margin-bottom: 3vh; 
 }
 
 .box{
     flex:1;
-    width: 100%;
-    
-    
+    width: 100%;  
 }
 
 .row{
@@ -86,8 +83,83 @@ h1{
     align-content: center;
     height: 100%;
     align-items: center;
+}
+#footer{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2vh;
+    background-color: #40b9c2;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.fifthlayer{
+    display: flex;
+    
+    justify-content: center;
+    padding: 30px 150px;
+    gap: 100px;
+    background-color:#80d3e6;
+    font-family: 'Nunito', sans-serif;
+    
     
 }
+.firstcolumn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.secondcolumn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.thirdcolumn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdcolumn img{
+    width: 120px;
+    transition: transform ease 300ms;
+    
+}
+.thirdcolumn img:hover {
+    transform: translate(0, -10px);
+    transform: scale(1.1);}
+
+.thirdcolumn a{
+    text-decoration: none;
+}
+.gplay img{
+    width: 135px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.headerflfc{
+    font-weight: bold;
+    color: black;
+  }
+
+.headerflsc{
+    font-weight: bold;
+    color: black;
+  }
+
+.headerfltc{
+    font-weight: bold;
+    color: black;
+  }
+
 
 
 // --text: #071617;
